@@ -1,0 +1,87 @@
+body{
+    background-color: #FEFFFE;
+}
+.main-container{
+    height: 100vh;
+    background-image: url("./images/header-background.png");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    height: 10vh;
+}
+#header1{
+    font-size: 3.2rem;
+}
+#search-clear{
+    font-weight:500;
+    font-size: 1rem;
+    color: gray;
+    cursor: pointer;
+}
+#signin-txt,#deliver-now,#sec2-txt,#font-weight,#find-food-btn,.card-body h5{
+    font-weight: 500;
+    cursor: pointer;
+}
+.search-active{
+    border-bottom: 3px solid black;
+    transition: 0.1s ease-in;
+}
+#search-input:focus{
+    outline: none;
+}
+#delivery-schedule,#mobile-icon{
+    cursor: pointer;
+}
+.header-input{
+    height: 70px;
+}
+.delivery-slots{
+    top: 50;
+    left: 0;
+    box-shadow: 2px 2px 15px 0.5px #dcdcdcb5;
+    visibility:hidden;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.active-slot{
+    visibility:visible;
+}
+.inactive{
+    visibility: hidden;
+}
+.mobile-menu-main{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40vh;
+    z-index: 10;
+}
+.mobile-menu{
+    top: 0;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.536);
+}
+.section1{
+    min-height: 50%;
+}
+.mapouter{
+    max-width: 100%;
+    min-width:100%;
+}
+#app-promo{
+    bottom: 80;
+}
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+#footer-li{
+    text-decoration: none;
+}
+#footer-li:hover{
+    text-decoration: underline;
+}
